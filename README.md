@@ -4,7 +4,8 @@ We're going to iterate an implementation of [Project Euler problem 1](https://pr
 
 Implement a command line program in Javascript to solve Project Euler problem 1.
 
-To run the spec files you've added to `src` folder, run `npm test`.
+## Auto re/run tests
+To automatically run the spec files you've added to `src` folder when they change, run `npm --silent start`.
 
 ## Setup
 1. Install [node.js/npm with package manager](https://nodejs.org/en/download/package-manager/)
