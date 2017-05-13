@@ -1,12 +1,12 @@
 {
   "name": "deliberate_practice",
   "version": "1.0.0",
-  "dependencies": {
+  "license": "MIT",
+  "repository": "https://github.com/dipolesource/deliberate_practice.git",
+  "devDependencies": {
     "jasmine": "^2.6.0"
   },
   "scripts": {
-      "test": "JASMINE_CONFIG_PATH=jasmine.json jasmine"
-  },
-  "license": "MIT",
-  "repository": "https://github.com/dipolesource/deliberate_practice.git"
+    "test": "JASMINE_CONFIG_PATH=jasmine.json jasmine"
+  }
 }
