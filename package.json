@@ -4,7 +4,8 @@
   "license": "MIT",
   "repository": "https://github.com/dipolesource/deliberate_practice.git",
   "devDependencies": {
-    "jasmine": "^2.6.0"
+    "jasmine": "^2.6.0",
+    "jasmine-console-reporter": "^1.2.7"
   },
   "scripts": {
     "test": "JASMINE_CONFIG_PATH=jasmine.json jasmine"

@@ -1,6 +1,6 @@
 var Module = require('./module_example.js');
 
-describe("Module", function() {
+describe("Example module", function() {
     it("should be loaded", function() {
         expect(Module).toBeDefined()
     });

@@ -21,13 +21,13 @@ To run the spec files you've added to `src` folder, run `npm test`.
 
     Test Suites & Specs:
 
-    1) Module
+    1) Example module
     .   ✔ should be loaded
     .   ✔ should be able to add
 
 
     2 specs, 0 failures
-    Finished in 0.007 seconds
+    Finished in 0.006 seconds
 
 
 
