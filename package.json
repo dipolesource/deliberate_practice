@@ -10,7 +10,7 @@
   },
   "scripts": {
     "postinstall": "JASMINE_CONFIG_PATH=post-install/jasmine.json jasmine",
-    "start": "chokidar 'src/**/*.js' --initial true --silent true --command 'npm run test'",
+    "start": "chokidar 'src/**/*.js' --initial true --command 'npm run test'",
     "test": "JASMINE_CONFIG_PATH=src/jasmine.json jasmine"
   }
 }
