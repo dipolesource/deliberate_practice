@@ -9,7 +9,7 @@
     "chokidar-cli": "^1.2.0"
   },
   "scripts": {
-    "start": "chokidar 'src/**/*_spec.js' --initial true --silent true --command 'npm run jasmine {path}'",
+    "start": "chokidar 'src/**/*.js' --initial true --silent true --command 'npm run jasmine'",
     "test": "npm run jasmine",
     "jasmine": "JASMINE_CONFIG_PATH=jasmine.json jasmine"
   }

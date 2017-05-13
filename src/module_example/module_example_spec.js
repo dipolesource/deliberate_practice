@@ -7,7 +7,7 @@ describe("Example module", function() {
 
   it("should be able to add", function() {
     var result = Module.AddNumbers(2, 3);
-    expect(result).toBe(5);
+    expect(result).toBe(2 + 3);
   });
 
   it("should not know how to subtract", function() {
