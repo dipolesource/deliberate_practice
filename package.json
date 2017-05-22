@@ -1,0 +1,16 @@
+{
+  "name": "deliberate_practice",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/dipolesource/deliberate_practice.git",
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "jasmine": "^2.6.0",
+    "jasmine-console-reporter": "^1.2.7"
+  },
+  "scripts": {
+    "postinstall": "JASMINE_CONFIG_PATH=post-install/jasmine.json jasmine",
+    "start": "chokidar 'src/**/*.js' --initial true --command 'npm run test'",
+    "test": "JASMINE_CONFIG_PATH=src/jasmine.json jasmine"
+  }
+}
